@@ -1,0 +1,23 @@
+server:
+  port: 12000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.4:10000/eureka/,http://192.168.1.5:10000/eureka/
+spring:
+  application:
+    name: configClient
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      fail-fast: true
+    stream:
+      kafka:
+        binder:
+          zk-nodes: 192.168.1.5:2181
+          brokers: 192.168.1.5:9092
+    bus:
+      trace:
+        enabled: true

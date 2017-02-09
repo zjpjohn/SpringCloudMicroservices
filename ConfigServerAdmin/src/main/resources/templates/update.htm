@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>配置中心 - ${info.serviceId}更新配置</title>
+    <meta name="keywords" content="配置中心">
+    <meta name="description" content="基于spring cloud config 配置中心">
+    <#assign base=request.contextPath />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet"/>
+    <link href="/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet"/>
+    <link href="/css/common.css" rel="stylesheet"/>
+    <link href="/css/animate.min.css" rel="stylesheet"/>
+    <link href="/css/plugins/codemirror/codemirror.css" rel="stylesheet"/>
+    <link href="/css/plugins/codemirror/ambiance.css" rel="stylesheet"/>
+    <link href="/css/style.min862f.css?v=4.1.0" rel="stylesheet"/>
+    <link href="/css/ui-dialog.css" rel="stylesheet"/>
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content  animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>更新配置</h5>
+                </div>
+                <div class="ibox-content">
+                    <form id="updateInfo">
+                        <div class="update-div">
+                            <strong>配置文件名：${info.name}</strong>
+                            <input type="hidden" name="id" value="${info.id}"/>
+                            <input type="hidden" name="name" value="${info.name}"/>
+                            <input type="hidden" name="path" value="${info.path}"/>
+                            <input type="hidden" name="branch" value="${info.branch}"/>
+                        </div>
+                        <div class="update-div">
+                            <strong>提交说明：</strong>
+                            <input class="input-ms" type="text" name="commit" value="commit msg"/>
+                        </div>
+                        <div class="update-div">
+                            <strong>更新内容</strong>
+                            <textarea id="content" name="content">${info.content}</textarea>
+                        </div>
+                    </form>
+                    <br>
+                    <div>
+                        <button type="button" name="updateConfig" class="btn btn-w-m btn-success"
+                                onclick="updateConfig()">更新配置
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/jquery.min.js?v=2.1.4"></script>
+<script src="/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="/js/plugins/peity/jquery.peity.min.js"></script>
+<script src="/js/plugins/codemirror/codemirror.js"></script>
+<script src="/js/plugins/codemirror/mode/javascript/javascript.js"></script>
+<script src="/js/content.min.js?v=1.0.0"></script>
+<script src="/js/dialog-min.js"></script>
+<script>
+    $(document).ready(function () {
+        var editor = CodeMirror.fromTextArea(document.getElementById("content"), {
+            lineNumbers: true,
+            matchBrackets: true,
+            styleActiveLine: true,
+            cursorHeight: 0.85,
+            height: "100%",
+            width: "100%",
+        });
+        //添加codemirror事件
+        editor.on("change", function () {
+            var value = editor.getValue();
+            $("#content").val(value);
+        });
+    });
+
+    /**
+     * 提交配置信息
+     */
+    function updateConfig() {
+        $.ajax({
+            type: 'post',
+            url: '/config/update',
+            data: $('#updateInfo').serialize(),
+            async: 'false',
+            success: function (data) {
+                if (data.code == "200") {
+                    var successDia = dialog({
+                        title: '成功',
+                        content: data.msg,
+                        width: '200px',
+                        height: '30px',
+                        ok: function () {
+                            return true;
+                        }
+                    });
+                    successDia.show();
+                } else if (data.code == 500) {
+                    var failDia = dialog({
+                        title: '失败',
+                        content: data.msg,
+                        width: '200px',
+                        height: '30px',
+                        ok: function () {
+                            return true;
+                        }
+                    });
+                    failDia.show();
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>

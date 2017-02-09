@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>配置中心 - 创建配置</title>
+    <meta name="keywords" content="配置中心">
+    <meta name="description" content="基于spring cloud config 配置中心">
+    <#assign base=request.contextPath />
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <link href="/css/plugins/codemirror/ambiance.css" rel="stylesheet">
+    <link href="/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link href="/css/common.css" rel="stylesheet"/>
+    <link href="/css/ui-dialog.css" rel="stylesheet"/>
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content  animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>添加配置</h5>
+                </div>
+                <div class="ibox-content">
+                    <form id="createInfo">
+                        <div class="create-div">
+                            <strong>文件名称(注意:文件名称应以“服务名称.properties(.yml)”命名)</strong><br/>
+                            <input type="hidden" name="id" value="${id}"/>
+                            <input class="input-ms" type="text" name="name" value=""/>
+                            <input type="hidden" name="branch" value="${branch}"/>
+                        </div>
+                        <div class="create-div">
+                            <strong>提交说明</strong><br/>
+                            <input class="input-ms" type="text" name="commit" value="commit msg"/>
+                        </div>
+                        <div class="create-div">
+                            <strong>文件内容</strong>
+                            <textarea id="content" name="content"></textarea>
+                        </div>
+                    </form>
+                    <div>
+                        <button type="button" name="createConfig" class="btn btn-w-m btn-success"
+                                onclick="createConfig()">创建配置
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/jquery.min.js?v=2.1.4"></script>
+<script src="/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="/js/plugins/peity/jquery.peity.min.js"></script>
+<script src="/js/plugins/codemirror/codemirror.js"></script>
+<script src="/js/plugins/codemirror/mode/javascript/javascript.js"></script>
+<script src="/js/content.min.js?v=1.0.0"></script>
+<script src="/js/dialog-min.js"></script>
+<script>
+    $(document).ready(function () {
+        var content = CodeMirror.fromTextArea(document.getElementById("content"), {
+            lineNumbers: true,
+            matchBrackets: true,
+            styleActiveLine: true,
+            cursorHeight: 0.85,
+            height: "100%",
+            width: "100%",
+        })
+        content.on("change", function () {
+            var value = content.getValue();
+            $("#content").val(value);
+        });
+    });
+
+    /**
+     * 提交配置信息
+     */
+    function createConfig() {
+        $.ajax({
+            type: 'post',
+            url: '${base}/config/create',
+            data: $("#createInfo").serialize(),
+            async: 'false',
+            success: function (data) {
+                if (data.code == "200") {
+                    var successDia = dialog({
+                        title: '成功',
+                        content: data.msg,
+                        width: '200px',
+                        height: '30px',
+                        ok: function () {
+                            return true;
+                        }
+                    });
+                    successDia.show();
+                } else if (data.code == 500) {
+                    var successDia = dialog({
+                        title: '失败',
+                        content: data.msg,
+                        width: '200px',
+                        height: '30px',
+                        ok: function () {
+                            return true;
+                        }
+                    });
+                    successDia.show();
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>

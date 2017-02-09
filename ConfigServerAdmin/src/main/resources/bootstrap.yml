@@ -1,0 +1,33 @@
+server:
+  port: 11002
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 15
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.4:10000/eureka/,http://192.168.1.5:10000/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 30
+spring:
+  application:
+    name: config-server-admin
+  freemarker:
+      cache: false
+      check-template-location: true
+      content-type: text/html
+      charset: utf-8
+      suffix: .htm
+      template-loader-path: classpath:/templates/
+      request-context-attribute: request
+gitlab:
+    host: http://git.juntu/
+    token: tZkhUqsP6aGrZhwPLabC
+    group: sop-microservices
+    repository: config-repo
+    projectId: 107
+    branch: master
+logging:
+  level: warn

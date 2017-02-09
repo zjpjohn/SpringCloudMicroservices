@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>配置中心 - ${info.serviceId}配置</title>
+    <meta name="keywords" content="配置中心">
+    <meta name="description" content="基于spring cloud config 配置中心">
+    <#assign base=request.contextPath />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <link href="/css/plugins/codemirror/ambiance.css" rel="stylesheet">
+    <link href="/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link href="/css/common.css" rel="stylesheet"/>
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content  animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>配置信息</h5>
+                </div>
+                <div class="ibox-content">
+
+                    <div class="info-div">
+                        <strong>文件名称:&nbsp;</strong>
+                        <span class="display:inline;margin-bottom:10px;">${info.name}</span>
+                    </div>
+                    <div class="info-div">
+                        <strong>文件路径:&nbsp;</strong>
+                        <span class="display:inline;margin-bottom:10px;">${info.path}</span>
+                    </div>
+                    <div class="info-div">
+                        <strong>分支名称:&nbsp;</strong>
+                        <span class="display:inline;margin-bottom:10px;">${info.branch}</span>
+                    </div>
+                    <div class="info-div">
+                        <strong>文件内容：</strong>
+                        <textarea id="content" name="content" disabled>${info.content}</textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/jquery.min.js?v=2.1.4"></script>
+<script src="/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="/js/plugins/peity/jquery.peity.min.js"></script>
+<script src="/js/plugins/codemirror/codemirror.js"></script>
+<script src="/js/plugins/codemirror/mode/javascript/javascript.js"></script>
+<script src="/js/content.min.js?v=1.0.0"></script>
+<script>
+    $(document).ready(function () {
+        var content = CodeMirror.fromTextArea(document.getElementById("content"), {
+            lineNumbers: true,
+            matchBrackets: true,
+            styleActiveLine: false,
+            cursorHeight:0.85,
+            readOnly: "nocursor"
+        })
+    });
+</script>
+</body>
+</html>

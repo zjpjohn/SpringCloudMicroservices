@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <#assign base=request.contextPath />
+    <title>查询配置信息</title>
+    <meta name="keywords" content="配置中心">
+    <meta name="description" content="基于spring cloud config 配置中心">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="/css/plugins/footable/footable.core.css" rel="stylesheet">
+
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Config 配置信息</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <#if status=0>
+                        <div aria-multiline="true">${error}</div>
+                    </#if>
+                    <#if status=1>
+                        <input type="text" class="form-control input-sm m-b-xs" id="filter"
+                               placeholder="搜索表格...">
+                        <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
+                            <thead>
+                            <tr>
+                                <th>服务名称</th>
+                                <th>配置文件</th>
+                                <th>文件路径</th>
+                                <th>所属分支</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody id="configs">
+                            <#list configs as repoVo>
+                                <tr class="gradeX">
+                                    <td class="center">
+                                        <input type="hidden" name="projectId" value="${repoVo.id}"/>
+                                        ${repoVo.serviceId}
+                                    </td>
+                                    <td class="center">${repoVo.name}</td>
+                                    <td class="center">${repoVo.path}</td>
+                                    <td class="center">${repoVo.branch}</td>
+                                    <td class="center">
+                                        <button name="查看配置" type="button" class="btn btn-w-m btn-danger"
+                                                onclick="queryInfo('${repoVo.id}','${repoVo.path}','${repoVo.branch}')">
+                                            查看配置
+                                        </button>
+                                        <button name="更新配置" type="button" class="btn btn-w-m btn-danger"
+                                                onclick="update('${repoVo.id}','${repoVo.path}','${repoVo.branch}')">
+                                            更新配置
+                                        </button>
+                                    </td>
+                                </tr>
+                            </#list>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <td colspan="5">
+                                    <ul class="pagination pull-right"></ul>
+                                </td>
+                            </tr>
+                            </tfoot>
+                        </table>
+                    </#if>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/jquery.min.js?v=2.1.4"></script>
+<script src="/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="/js/plugins/footable/footable.all.min.js"></script>
+<script src="/js/content.min.js?v=1.0.0"></script>
+<script>
+    $(function () {
+    });
+    /**
+     * 提交更新配置信息请求
+     * @param id projectId
+     * @param path 配置文件路径
+     * @param branch 分支名称
+     */
+    function update(id, path, branch) {
+        var reqUrl = "/config/updatePage?id=" + id + "&path=" + path + "&branch=" + branch;
+        window.location.href = reqUrl;
+    }
+
+    /**
+     * 查询配置信息
+     * @param id
+     * @param path
+     * @param branch
+     */
+    function queryInfo(id, path, branch) {
+        var reqUrl = "/config/info?id=" + id + "&path=" + path + "&branch=" + branch;
+        window.location.href = reqUrl;
+    }
+</script>
+</body>
+</html>

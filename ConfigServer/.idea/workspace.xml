@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8c60de4-1e84-4eb4-9f3c-e4ff22d25354" name="Default" comment="" />
+    <ignored path="ConfigServer.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ConfigServer" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources-env/beta/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources-env/dev/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources-env/prod/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13072626">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/config/domain/JsonData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RefreshController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/config/refresh/RefreshController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/utils/GitUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/config/GirlabConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/config/GitlabConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/vo/JsonData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/500.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/404.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/vo/RepoVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/vo/RepoFileVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/git/GitlabService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/controller/GitlabController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/update.htm" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/refresh.htm" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/info.htm" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/create.htm" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/all.htm" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.htm" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/views/index.htm" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/config/WebmvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/domain/JsonData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juntu/config/refresh/RefreshController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources-env/beta/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources-env/prod/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/tools/maven" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="prod" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="server Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="server Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources-env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources-env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources-env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConfigServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ConfigServerAdmin" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\工作项目\juntu-microservices\ConfigServer\src\main\resources-env\dev" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.juntu.config.domain" />
+      <recent name="com.juntu.config.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\工作项目\juntu-microservices\ConfigServer\src\main\resources-env\prod" />
+      <recent name="C:\project\工作项目\juntu-microservices\ConfigServer\src\main\resources-env\beta" />
+      <recent name="C:\project\工作项目\juntu-microservices\ConfigServer\src\main\resources\static\views" />
+      <recent name="C:\project\工作项目\juntu-microservices\ConfigServer\src\main\resources\static" />
+      <recent name="C:\project\工作项目\juntu-microservices\ConfigServer\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplicationProd">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juntu.config.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="ConfigServer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConfigServerApplicationBeta" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juntu.config.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="ConfigServer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConfigServerApplicationProd" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juntu.config.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="ConfigServer" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplicationBeta" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplicationProd" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8c60de4-1e84-4eb4-9f3c-e4ff22d25354" name="Default" comment="" />
+      <created>1479691362871</created>
+      <option name="number" value="Default" />
+      <updated>1479691362871</updated>
+      <workItem from="1479691364431" duration="17569000" />
+      <workItem from="1479732518401" duration="5347000" />
+      <workItem from="1479776368231" duration="1852000" />
+      <workItem from="1479779604213" duration="8634000" />
+      <workItem from="1479799069442" duration="1976000" />
+      <workItem from="1479809164214" duration="555000" />
+      <workItem from="1479864056525" duration="25903000" />
+      <workItem from="1479948486377" duration="16299000" />
+      <workItem from="1480035143236" duration="7955000" />
+      <workItem from="1480058243309" duration="4023000" />
+      <workItem from="1486608307597" duration="691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="90804000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18336888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27665246" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43928194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7022175" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.023809524" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1684435" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources-env/beta/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources-env/dev/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources-env/prod/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.1.RELEASE/spring-boot-autoconfigure-1.4.1.RELEASE.jar!/org/springframework/boot/autoconfigure/freemarker/FreeMarkerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.1.RELEASE/spring-boot-autoconfigure-1.4.1.RELEASE.jar!/org/springframework/boot/autoconfigure/web/WebMvcProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.juntu.config:server:1.0.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.juntu.config:server:1.0.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.juntu.config:server:1.0.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.1.2.RELEASE/org.springframework:spring-web:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.1.2.RELEASE/org.springframework:spring-web:jar:4.3.3.RELEASE/org.springframework:spring-aop:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.1.2.RELEASE/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.1.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.springframework:spring-webmvc:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.4.1.RELEASE/org.springframework:spring-webmvc:jar:4.3.3.RELEASE/org.springframework:spring-expression:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.security:spring-security-crypto:jar:4.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.1.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.47</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.1.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.47/org.bouncycastle:bcprov-jdk15on:jar:1.47</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.eclipse.jgit:org.eclipse.jgit:jar:3.5.3.201412180710-r</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.eclipse.jgit:org.eclipse.jgit:jar:3.5.3.201412180710-r/com.jcraft:jsch:jar:0.1.50</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.eclipse.jgit:org.eclipse.jgit:jar:3.5.3.201412180710-r/com.googlecode.javaewah:JavaEWAH:jar:0.7.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.eclipse.jgit:org.eclipse.jgit:jar:3.5.3.201412180710-r/org.apache.httpcomponents:httpclient:jar:4.5.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.eclipse.jgit:org.eclipse.jgit:jar:3.5.3.201412180710-r/org.apache.httpcomponents:httpclient:jar:4.5.2/org.apache.httpcomponents:httpcore:jar:4.4.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.eclipse.jgit:org.eclipse.jgit:jar:3.5.3.201412180710-r/org.apache.httpcomponents:httpclient:jar:4.5.2/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-config-server:jar:1.1.2.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.1.5.RELEASE/org.springframework.boot:spring-boot:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.netflix.archaius:archaius-core:jar:0.7.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.netflix.archaius:archaius-core:jar:0.7.4/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.netflix.servo:servo-core:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.netflix.servo:servo-core:jar:0.10.1/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.google.inject:guice:jar:4.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.google.inject:guice:jar:4.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.google.inject:guice:jar:4.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.google.inject:guice:jar:4.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.netflix.governator:governator-api:jar:1.12.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.4.10/com.fasterxml.jackson.core:jackson-core:jar:2.8.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.amazonaws:aws-java-sdk-core:jar:1.11.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.amazonaws:aws-java-sdk-core:jar:1.11.18/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.amazonaws:aws-java-sdk-ec2:jar:1.11.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.amazonaws:aws-java-sdk-autoscaling:jar:1.11.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.amazonaws:aws-java-sdk-sts:jar:1.11.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.amazonaws:aws-java-sdk-route53:jar:1.11.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.netflix.governator:governator:jar:1.12.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.netflix.governator:governator:jar:1.12.10/com.netflix.governator:governator-core:jar:1.12.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/com.netflix.governator:governator:jar:1.12.10/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.4.10/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.1.5.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.1.5.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.1.5.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.1.5.RELEASE/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/com.netflix.ribbon:ribbon-transport:jar:2.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/com.netflix.ribbon:ribbon-transport:jar:2.2.0/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/com.netflix.ribbon:ribbon-transport:jar:2.2.0/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/com.netflix.ribbon:ribbon-transport:jar:2.2.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/com.netflix.hystrix:hystrix-core:jar:1.5.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/com.netflix.hystrix:hystrix-core:jar:1.5.3/org.hdrhistogram:HdrHistogram:jar:2.1.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-handler:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-common:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.0/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.0/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.0/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.1.5.RELEASE/io.reactivex:rxjava:jar:1.1.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.2/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.1.5.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.2/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-codec:jar:1.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-codec:jar:1.0.2.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-codec:jar:1.0.2.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3/com.esotericsoftware:minlog:jar:1.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-kafka:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-kafka:jar:1.3.1.RELEASE/com.yammer.metrics:metrics-annotation:jar:2.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-kafka:jar:1.3.1.RELEASE/io.projectreactor:reactor-core:jar:2.0.8.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-kafka:jar:1.3.1.RELEASE/io.projectreactor:reactor-core:jar:2.0.8.RELEASE/org.reactivestreams:reactive-streams:jar:1.0.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-kafka:jar:1.3.1.RELEASE/com.yammer.metrics:metrics-core:jar:2.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-kafka:jar:1.3.1.RELEASE/com.goldmansachs:gs-collections:jar:5.0.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-kafka:jar:1.3.1.RELEASE/com.goldmansachs:gs-collections:jar:5.0.0/com.goldmansachs:gs-collections-api:jar:5.0.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka_2.10:jar:0.8.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka_2.10:jar:0.8.2.2/org.scala-lang:scala-library:jar:2.10.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka_2.10:jar:0.8.2.2/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka_2.10:jar:0.8.2.2/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka_2.10:jar:0.8.2.2/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka_2.10:jar:0.8.2.2/net.sf.jopt-simple:jopt-simple:jar:3.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka_2.10:jar:0.8.2.2/com.101tec:zkclient:jar:0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka_2.10:jar:0.8.2.2/com.101tec:zkclient:jar:0.3/org.apache.zookeeper:zookeeper:jar:3.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka-clients:jar:0.8.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka-clients:jar:0.8.2.2/org.xerial.snappy:snappy-java:jar:1.1.1.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/org.apache.kafka:kafka-clients:jar:0.8.2.2/net.jpountz.lz4:lz4:jar:1.2.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-kafka:jar:1.0.2.RELEASE/io.reactivex:rxjava-math:jar:1.0.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-jmx:jar:4.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.0.2.RELEASE/org.springframework:spring-messaging:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.0.2.RELEASE/org.springframework:spring-tuple:jar:1.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.0.2.RELEASE/org.springframework.integration:spring-integration-tuple:jar:1.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-kafka:jar:1.0.2.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.0.2.RELEASE/org.springframework.retry:spring-retry:jar:1.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-bus:jar:1.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-bus:jar:1.1.0.RELEASE/org.springframework.integration:spring-integration-core:jar:4.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-kafka:jar:1.1.1.RELEASE/org.springframework.cloud:spring-cloud-bus:jar:1.1.0.RELEASE/org.springframework.integration:spring-integration-core:jar:4.3.2.RELEASE/org.springframework:spring-tx:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.1.RELEASE/ch.qos.logback:logback-classic:jar:1.1.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.1.RELEASE/ch.qos.logback:logback-classic:jar:1.1.7/ch.qos.logback:logback-core:jar:1.1.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.1.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.1.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.4.1.RELEASE/org.springframework:spring-context:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-freemarker:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-freemarker:jar:1.4.1.RELEASE/org.freemarker:freemarker:jar:2.3.25-incubating</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-freemarker:jar:1.4.1.RELEASE/org.springframework:spring-context-support:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-freemarker:jar:1.4.1.RELEASE/org.springframework:spring-context-support:jar:4.3.3.RELEASE/org.springframework:spring-beans:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.assertj:assertj-core:jar:2.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0/org.json:json:jar:20140107</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.springframework:spring-core:jar:4.3.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE/org.springframework:spring-test:jar:4.3.3.RELEASE</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.codehaus.jackson:jackson-jaxrs:jar:1.9.13</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.codehaus.jackson:jackson-jaxrs:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.codehaus.jackson:jackson-jaxrs:jar:1.9.13/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.jersey.core:jersey-common:jar:2.14</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.jersey.core:jersey-common:jar:2.14/javax.annotation:javax.annotation-api:jar:1.2</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.jersey.core:jersey-common:jar:2.14/org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.14</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.jersey.core:jersey-common:jar:2.14/org.glassfish.hk2:osgi-resource-locator:jar:1.0.1</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/javax.ws.rs:javax.ws.rs-api:jar:2.0.1</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.hk2:hk2-api:jar:2.4.0-b06</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.hk2:hk2-api:jar:2.4.0-b06/org.glassfish.hk2:hk2-utils:jar:2.4.0-b06</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.hk2:hk2-api:jar:2.4.0-b06/org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b06</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.hk2.external:javax.inject:jar:2.4.0-b06</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.hk2:hk2-locator:jar:2.4.0-b06</node>
+            <node x="" y="">com.messners:gitlab-api:jar:2.0.5-20161121.045036-1/org.glassfish.jersey.core:jersey-client:jar:2.14/org.glassfish.hk2:hk2-locator:jar:2.4.0-b06/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="" y="">com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.5</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.024956124956125" x="1615.0" y="785.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/1.1.2.RELEASE/spring-cloud-config-server-1.1.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/1.1.2.RELEASE/spring-cloud-config-server-1.1.2.RELEASE.jar!/org/springframework/cloud/config/server/resource/ResourceController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/1.1.2.RELEASE/spring-cloud-config-server-1.1.2.RELEASE.jar!/org/springframework/cloud/config/server/environment/NoSuchLabelException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/1.4.1.RELEASE/spring-boot-actuator-1.4.1.RELEASE.jar!/org/springframework/boot/actuate/endpoint/mvc/AbstractMvcEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/1.4.1.RELEASE/spring-boot-actuator-1.4.1.RELEASE.jar!/org/springframework/boot/actuate/endpoint/mvc/MvcEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/1.1.0.RELEASE/spring-cloud-bus-1.1.0.RELEASE.jar!/org/springframework/cloud/bus/endpoint/AbstractBusEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/1.1.0.RELEASE/spring-cloud-bus-1.1.0.RELEASE.jar!/org/springframework/cloud/bus/endpoint/RefreshBusEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/config/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/config/domain/JsonData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/config/refresh/RefreshController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources-env/beta/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources-env/dev/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources-env/prod/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13072626">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ConfigServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

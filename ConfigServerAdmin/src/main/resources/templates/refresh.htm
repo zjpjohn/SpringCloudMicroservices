@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/table_foo_table.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:20:03 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <#assign base=request.contextPath />
+    <title>配置中心 - 刷新配置</title>
+    <meta name="keywords" content="配置中心">
+    <meta name="description" content="基于spring cloud config 配置中心">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="/css/plugins/footable/footable.core.css" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link href="/css/ui-dialog.css" rel="stylesheet"/>
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Config 配置信息</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <#if status==0>
+                        <div aria-multiline="true">${error}</div>
+                    </#if>
+                    <#if status==1>
+                        <button type="button" name="全部刷新" class="btn btn-w-m btn-danger" onclick="refreshAll()">全部刷新
+                        </button>
+                        <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
+                            <thead>
+                            <tr>
+                                <th>服务名称</th>
+                                <th>配置文件</th>
+                                <th>文件路径</th>
+                                <th>所属分支</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody id="configs">
+                            <#list repoVos as repoVo>
+                                <tr class="gradeX">
+                                    <td class="center">
+                                        ${repoVo.serviceId}
+                                    </td>
+                                    <td class="center">${repoVo.name}</td>
+                                    <td class="center">${repoVo.path}</td>
+                                    <td class="center">${repoVo.branch}</td>
+                                    <td class="center">
+                                        <button name="刷新配置" type="button" class="btn btn-w-m btn-danger"
+                                                onclick="refresh('${repoVo.serviceId}')">刷新配置
+                                        </button>
+                                    </td>
+                                </tr>
+                            </#list>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <td colspan="5">
+                                    <ul class="pagination pull-right"></ul>
+                                </td>
+                            </tr>
+                            </tfoot>
+                        </table>
+                    </#if>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/jquery.min.js?v=2.1.4"></script>
+<script src="/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="/js/plugins/footable/footable.all.min.js"></script>
+<script src="/js/content.min.js?v=1.0.0"></script>
+<script src="/js/dialog-min.js"></script>
+<script>
+    $(function () {
+        $(".footable").footable();
+    });
+
+
+    function refresh(serviceId) {
+        var reqUrl = "${base}/config/refresh?dest=" + serviceId;
+        $.ajax({
+            type: 'get',
+            url: reqUrl,
+            success: function (data) {
+                if (data.code == 200) {
+                    var successDia = dialog({
+                        title: '成功',
+                        content: data.msg,
+                        width: '200px',
+                        height: '30px',
+                        ok: function () {
+                            return true;
+                        }
+                    });
+                    successDia.show();
+                } else if (data.code == 500) {
+                    var successDia = dialog({
+                        title: '失败',
+                        content: data.msg,
+                        width: '200px',
+                        height: '30px',
+                        ok: function () {
+                            return true;
+                        }
+                    });
+                    successDia.show();
+                }
+            }
+        })
+    }
+
+    /**
+     * 全部刷新
+     */
+    function refreshAll() {
+        var reqUrl = "${base}/config/refresh";
+        $.ajax({
+            type: 'get',
+            url: reqUrl,
+            success: function (data) {
+                if (data.code == 200) {
+                    var successDia = dialog({
+                        title: '成功',
+                        content: data.msg,
+                        width: '200px',
+                        height: '30px',
+                        ok: function () {
+                            return true;
+                        }
+                    });
+                    successDia.show();
+                } else if (data.code == 500) {
+                    var successDia = dialog({
+                        title: '失败',
+                        content: data.msg,
+                        width: '200px',
+                        height: '30px',
+                        ok: function () {
+                            return true;
+                        }
+                    });
+                    successDia.show();
+                }
+            }
+        });
+    }
+</script>
+</body>
+</html>
